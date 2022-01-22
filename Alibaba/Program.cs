@@ -6,17 +6,17 @@ namespace Alibaba
     {
         static void Main(string[] args)
         {
-            Trip trip;
+            //Trip trip;
             TripController tripController;
 
-            User user;
+            //User user;
             UserController userController;
 
             Vehicle vehicle;
             Train train;
             TrainSeat trainSeat;
 
-            Seat seat;
+            //Seat seat;
             SeatController seatController;
             Location location;
            
