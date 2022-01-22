@@ -4,17 +4,19 @@ namespace Alibaba
 {
     class UserController
     {
-        
 
 
 
-void addPassenger(Passenger passenger_data){
 
-} 
+        void addPassenger(Passenger passenger_data)
+        {
 
-void addAgency(Agency agency_data){
+        }
 
-}
+        void addAgency(Agency agency_data)
+        {
+
+        }
 
 
     }

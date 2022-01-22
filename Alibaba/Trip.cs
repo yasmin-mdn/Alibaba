@@ -4,7 +4,7 @@ namespace Alibaba
 {
     class Trip
     {
-       private Vehicle vehicle;
+        private Vehicle vehicle;
 
         private Location source;
 
@@ -22,8 +22,9 @@ namespace Alibaba
 
 
 
-        public void setVehicle(Vehicle vehicle) {
-            this.vehicle=vehicle;
+        public void setVehicle(Vehicle vehicle)
+        {
+            this.vehicle = vehicle;
         }
 
         public Vehicle getVehicle()
@@ -33,46 +34,52 @@ namespace Alibaba
 
         public void setSource(Location src)
         {
-            this.source=src;
+            this.source = src;
         }
 
-        public  Location getSource() {
-            return this.source ;
-         }
-
-        public void setDestination(Location dst) { 
-            this.destination=dst;
+        public Location getSource()
+        {
+            return this.source;
         }
 
-        public Location getDestination() {
+        public void setDestination(Location dst)
+        {
+            this.destination = dst;
+        }
+
+        public Location getDestination()
+        {
             return this.destination;
-         }
+        }
 
-        public void setDepartureTime(DateTime departure) {
-            this.departure_time=departure;
-         }
+        public void setDepartureTime(DateTime departure)
+        {
+            this.departure_time = departure;
+        }
 
-        public DateTime getDepartureTime() { 
+        public DateTime getDepartureTime()
+        {
             return this.departure_time;
         }
 
         public void setArrivalTime(DateTime arrival)
         {
-            this.arrival_time=arrival;
+            this.arrival_time = arrival;
         }
 
         public void setPrice(int price)
         {
-            this.price=price;
+            this.price = price;
         }
 
-        public int getPrice() { 
+        public int getPrice()
+        {
             return this.price;
         }
 
         public void setAgency(Agency agency)
         {
-            this.agency=agency;
+            this.agency = agency;
         }
 
         public Agency getAgency()

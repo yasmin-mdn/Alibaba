@@ -8,20 +8,24 @@ namespace Alibaba
 
         int coupe_number;
 
-public void setWagonNumber(int wagonNumber) {
+        public void setWagonNumber(int wagonNumber)
+        {
 
-} 
+        }
 
-public int getWagonNumber(){
+        public int getWagonNumber()
+        {
 
-} 
+        }
 
-void setCoupeNumber(int coupeNumber) {
+        void setCoupeNumber(int coupeNumber)
+        {
 
-}
+        }
 
-int getCoupeNumber() {
-    
-}
+        int getCoupeNumber()
+        {
+
+        }
     }
 }

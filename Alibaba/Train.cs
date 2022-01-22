@@ -13,22 +13,22 @@ namespace Alibaba
 
         string getID()
         {
-            
+
         }
 
-void setType(EnumTrainType type) {}
-EnumTrainType getType(){}
+        void setType(EnumTrainType type) { }
+        EnumTrainType getType() { }
 
-void setWagonsCount(int wagons) {}
+        void setWagonsCount(int wagons) { }
 
-int getWagonsCount() {}
+        int getWagonsCount() { }
 
-void setWagonCoupesCount(int coupes) {}
+        void setWagonCoupesCount(int coupes) { }
 
-int getWagonCoupesCount() {} 
+        int getWagonCoupesCount() { }
 
-void setCoupeSeatsCount(int seats){}
+        void setCoupeSeatsCount(int seats) { }
 
-int getCoupeSeatsCount() {}
+        int getCoupeSeatsCount() { }
     }
 }

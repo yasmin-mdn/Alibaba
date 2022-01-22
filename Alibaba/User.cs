@@ -28,7 +28,7 @@ namespace Alibaba
 
         public void setEmail(string email)
         {
-            this.email= email;
+            this.email = email;
         }
 
         public string getEmail()
@@ -38,21 +38,22 @@ namespace Alibaba
 
         public void setAvatar(string avatar)
         {
-            this.avatar= avatar;
+            this.avatar = avatar;
         }
 
-        public string getAvatar() { 
+        public string getAvatar()
+        {
             return this.avatar;
         }
 
         public void setPassword(string password)
         {
-            this.password=password;
+            this.password = password;
         }
 
         public void setWallet(int price)
         {
-            this.wallet= price;
+            this.wallet = price;
         }
 
     }
