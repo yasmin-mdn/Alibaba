@@ -12,18 +12,18 @@ namespace Alibaba
             //User user;
             UserController userController;
 
-            Vehicle vehicle;
+            //Vehicle vehicle;
             Train train;
             TrainSeat trainSeat;
 
             //Seat seat;
             SeatController seatController;
-            Location location;
+           // Location location;
            
-            Booking booking;
+            //Booking booking;
             BookingController bookingController;
            
-            Passenger passenger;
+           // Passenger passenger;
             Payment payment;
             Ticket ticket;
             Agency agency;

@@ -1,6 +1,23 @@
 namespace Alibaba
 {
-    internal class Booking
+    class Booking
     {
+
+
+        Ticket[] tickets ;
+
+        Passenger[] passengers ;
+
+
+        double total_price ;
+
+
+        string token ;
+
+
+        bool paid ;
+
+
+
     }
 }

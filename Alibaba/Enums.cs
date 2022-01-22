@@ -1,5 +1,7 @@
 namespace Alibaba
 {
+
+
 enum EnumVehicleType
 {
     PLANE,

@@ -1,6 +1,6 @@
 namespace Alibaba
 {
-    internal class SeatController
+    class SeatController
     {
     }
 }
